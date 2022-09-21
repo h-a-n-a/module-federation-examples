@@ -30,6 +30,7 @@ module.exports = {
       },
     ],
   },
+  devtool: false,
   plugins: [
     new ModuleFederationPlugin({
       name: 'app1',

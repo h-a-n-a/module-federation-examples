@@ -18,12 +18,12 @@
   },
   "scripts": {
     "start": "webpack-cli serve",
-    "build": "webpack --mode production",
+    "build": "webpack",
     "serve": "serve dist -p 3001",
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@module-federation/typescript": "^0.1.8",
+    "@module-federation/typescript": "0.1.8",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }

@@ -30,12 +30,13 @@ module.exports = {
       },
     ],
   },
+  devtool: false,
   plugins: [
     new ModuleFederationPlugin({
       name: 'app2',
       filename: 'remoteEntry.js',
       exposes: {
-        './Button': './src/Button',
+        './Button': './src/Button.tsx',
       },
       shared: ['react', 'react-dom'],
     }),
